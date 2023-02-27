@@ -1,4 +1,4 @@
-package Labs;
+package Labs.lab01;
 import java.lang.Math;
 
 public class circle {

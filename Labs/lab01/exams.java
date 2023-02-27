@@ -1,4 +1,4 @@
-package Labs;
+package Labs.lab01;
 
 public class exams {
     Integer aliceResult1, aliceResult2, bobResult3;

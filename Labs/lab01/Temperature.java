@@ -1,4 +1,4 @@
-package Labs;
+package Labs.lab01;
 
 public class Temperature {
    Double tempC;

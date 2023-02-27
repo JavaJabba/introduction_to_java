@@ -1,4 +1,4 @@
-package Labs;
+package Labs.lab01;
 
 public class weights {
     double earthWeight = 50;
