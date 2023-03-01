@@ -34,11 +34,6 @@ public class sd {
 
         // Standard Deviation values
         double standardDeviation = 0.0;
-        
-
-
-
-
 
 
         
