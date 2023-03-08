@@ -23,5 +23,10 @@ public class coffee {
         System.out.println("Price per pound: $5.99");
         System.out.println("Sales tax: 7.25%");
         System.out.println("Total price: $ " + totalPriceTax);
+
+        // close the scanner
+        System.out.println("\nClosing Scanner...");
+        myScanner.close();
+        System.out.println("Scanner Closed.");
     }
 }

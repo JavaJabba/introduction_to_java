@@ -1,6 +1,5 @@
 package Labs.lab03;
 import java.util.Scanner;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class sd {
@@ -20,8 +19,8 @@ public class sd {
             stdArray.add(newNumber);
         }
 
-        // get length
-        int length = Array.getLength(stdArray);
+        // Define length
+        int length = N;
 
         // get sum
         double sum = 0.0;
@@ -34,6 +33,11 @@ public class sd {
 
         // Standard Deviation values
         double standardDeviation = 0.0;
+        for (double number: stdArray){
+            standardDeviation += Math.pow(number - mean, 2);
+        }
+
+        System.err.println(Math.sqrt(standardDeviation / length));
 
 
         
